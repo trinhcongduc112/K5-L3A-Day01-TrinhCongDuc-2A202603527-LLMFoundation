@@ -53,11 +53,11 @@
   "3.3 knn_predict": true,
   "4.2–4.3 prompt / parse_label": true,
   "4.1 + 4.4 call_openai / llm_classify_batch": true,
-  "tính tay: baseline_accuracy": false,
-  "tính tay: sigmoid_0": false,
-  "tính tay: f1_example": false,
-  "tính tay: cosine_example": false,
-  "tính tay: llm_cost_per_day": false
+  "tính tay: baseline_accuracy": true,
+  "tính tay: sigmoid_0": true,
+  "tính tay: f1_example": true,
+  "tính tay: cosine_example": true,
+  "tính tay: llm_cost_per_day": true
  },
  "experiments": [
   {
@@ -101,6 +101,7 @@
    "time": "16:14:40"
   }
  ],
+ "challenge": 3,
  "results": {
   "1. BoW + LogReg (tự code)": {
    "accuracy": 0.9690322580645161,
